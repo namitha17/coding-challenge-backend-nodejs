@@ -1,0 +1,27 @@
+{
+  "name": "coding-challenge-backend-nodejs",
+  "version": "1.0.0",
+  "description": "An API that performs various tasks regarding stolen bike cases.",
+  "main": "stolen_bikes.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/namitha17/coding-challenge-backend-nodejs.git"
+  },
+  "author": "Namitha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/namitha17/coding-challenge-backend-nodejs/issues"
+  },
+  "homepage": "https://github.com/namitha17/coding-challenge-backend-nodejs#readme",
+  "dependencies": {
+    "awilix": "^4.2.2",
+    "awilix-express": "^2.1.1",
+    "body-parser": "^1.19.0",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "knex": "^0.16.5",
+    "mysql": "^2.17.1",
+    "winston": "^3.2.1"
+  }
+}
