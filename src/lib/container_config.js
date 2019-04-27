@@ -12,15 +12,17 @@ function configureDIcontainer(){
 
   const diContainer = createContainer();
   diContainer.register({
-    bike_service: asClass(bike_service, {lifetime: Lifetime.SCOPED}),
-    bike_db: asClass(bike_db, {lifetime: Lifetime.SCOPED}),
-    case_service: asClass(case_service, {lifetime: Lifetime.SCOPED}),
-    case_db: asClass(case_db, {lifetime: Lifetime.SCOPED}),
-    officer_service: asClass(officer_service, {lifetime: Lifetime.SCOPED}),
-    officer_db: asClass(officer_db, {lifetime: Lifetime.SCOPED})
+    bike_service: asClass(bike_service).scoped(),
+    bike_db: asClass(bike_db).scoped(),
+    case_service: asClass(case_service).scoped(),
+    case_db: asClass(case_db).scoped(),
+    officer_service: asClass(officer_service).scoped(),
+    officer_db: asClass(officer_db).scoped()
   });
 
   logger.info(`Successfully completed dependency injection container configuration`);
+
+  return diContainer;
 }
 
 module.exports = {

@@ -28,8 +28,9 @@ const logger = winston.createLogger({
     winston.format.simple()
   ),
   transports: [
+    new winston.transports.Console(),
     new winston.transports.File({
-      filename: __dirname + '../../info.log',
+      filename: __dirname + '..\..\info.log',
       level: 'info'
     })
   ]

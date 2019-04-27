@@ -15,7 +15,7 @@ async function init(){
       database: process.env.MYDB_NAME
     },
     migrations: {
-      directory: __dirname + '../lib/../src/../migrations'
+      directory: __dirname + '../lib/../../src/../../migrations'
     },
     pool: {
       afterCreate: (conn, done) => {
@@ -34,7 +34,6 @@ async function init(){
 async function buildDatabase(){
   try{
     logger.info(`Building ${process.env.MYDB_NAME} database`);
-    console.log(process.env.MYDB_NAME);
     await knex.migrate.latest();
     logger.info(`Successfully built ${process.env.MYDB_NAME} database`);
   }catch(err){

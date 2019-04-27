@@ -1,6 +1,6 @@
 const express = require('express');
 const dotenv = require('dotenv/config');
-const bodyparser = require('body-parser');
+const bodyParser = require('body-parser');
 const awilixExpress = require('awilix-express');
 const database_operations = require('./lib/database_operations');
 const logger = require('./lib/logger').logger;
@@ -15,12 +15,12 @@ async function startstolenBikeService(){
     console.log('db initiated');
     await database_operations.buildDatabase(); //create db objects
     console.log('db created');
-    container = container_config(); //initialise di container
+    container = container_config.configureDIcontainer(); //initialise di container
 
     //initialise app
     const app = express();
     app.use(bodyParser.json());
-    app.use(bodyparser.urlencoded({extended: false}));
+    app.use(bodyParser.urlencoded({extended: false}));
     app.use(awilixExpress.scopePerRequest(container));
     app.use('/', routes);
     const server = app.listen(8080);
