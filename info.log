@@ -1,0 +1,43 @@
+info: Initialising connection to mysql database
+info: Building stolen_bikes database
+info: Initialising connection to mysql database
+info: Building stolen_bikes database
+info: Initialising connection to mysql database
+info: Building stolen_bikes database
+error: Could not build stolen_bikes database: ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: YES)
+info: Initialising connection to mysql database
+info: Building stolen_bikes database
+error: Could not build stolen_bikes database: ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: YES)
+info: Initialising connection to mysql database {"timestamp":"2019-04-27T18:12:40.009Z"}
+info: Building stolen_bikes database {"timestamp":"2019-04-27T18:12:40.234Z"}
+error: Could not build stolen_bikes database: ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: YES) {"timestamp":"2019-04-27T18:12:40.410Z"}
+info: [undefined] Initialising connection to mysql database
+info: [undefined] Building stolen_bikes database
+error: [undefined] Could not build stolen_bikes database: ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: YES)
+info: function createFormatWrap(opts) {
+    return new Format(opts);
+  }Initialising connection to mysql database
+info: function createFormatWrap(opts) {
+    return new Format(opts);
+  }Building stolen_bikes database
+error: function createFormatWrap(opts) {
+    return new Format(opts);
+  }Could not build stolen_bikes database: ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: YES)
+info: Initialising connection to mysql database {"timestamp":"2019-04-27T18:17:06.088Z"}
+info: Building stolen_bikes database {"timestamp":"2019-04-27T18:17:06.333Z"}
+error: Could not build stolen_bikes database: ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: YES) {"timestamp":"2019-04-27T18:17:06.539Z"}
+info: Initialising connection to mysql database
+info: Building stolen_bikes database
+error: Could not build stolen_bikes database: ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: YES)
+info: Initialising connection to mysql database
+info: Building stolen_bikes database
+error: Could not build stolen_bikes database: ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: YES)
+info: Initialising connection to mysql database
+info: Building stolen_bikes database
+error: Could not build stolen_bikes database: ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: YES)
+info: Initialising connection to mysql database
+info: Building stolen_bikes database
+error: Could not build stolen_bikes database: ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: YES)
+info: Initialising connection to mysql database
+info: Building stolen_bikes database
+error: Could not build stolen_bikes database: ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: YES)

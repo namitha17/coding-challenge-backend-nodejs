@@ -1,4 +1,5 @@
 const winston = require('winston');
+const path = require('path');
 // let transports;
 //
 // if(process.env.NODE_ENV === 'dev'){
@@ -10,13 +11,13 @@ const winston = require('winston');
 // }
 //
 // transports = new winston.transports.File({
-//     filename: __dirname + '../lib/../src/../stolen_bike_service_logs.log',
+//     filename: path.resolve(__dirname, '../../info.log')',
 //     level: 'info'
 // });
 
 const constructMyFormat = winston.format(info => {
   if (info.meta && info.meta instanceof Error) {
-      info.message = `[${info.timestamp}] ${info.message} ${info.meta.stack}`;
+      info.message = `${info.message} ${info.meta.stack}`;
   }
   return info;
 });
@@ -30,8 +31,12 @@ const logger = winston.createLogger({
   transports: [
     new winston.transports.Console(),
     new winston.transports.File({
-      filename: __dirname + '..\..\info.log',
+      filename: path.resolve(__dirname, '../../info.log'),
       level: 'info'
+    }),
+    new winston.transports.File({
+      filename: path.resolve(__dirname, '../../info.log'),
+      level: 'error'
     })
   ]
 });

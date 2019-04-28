@@ -2,4 +2,6 @@ class BikeService{
 
 }
 
-module.exports = BikeService;
+module.exports = {
+  BikeService
+};
