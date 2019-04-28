@@ -1,4 +1,4 @@
-const {createContainer, asClass, Lifetime } = require('awilix');
+const { createContainer, asClass, Lifetime } = require('awilix');
 const { CONTAINER_MODULES } = require('./container_modules');
 const logger = require('./logger').logger;
 

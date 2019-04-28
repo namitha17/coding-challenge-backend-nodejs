@@ -41,3 +41,203 @@ error: Could not build stolen_bikes database: ER_ACCESS_DENIED_ERROR: Access den
 info: Initialising connection to mysql database
 info: Building stolen_bikes database
 error: Could not build stolen_bikes database: ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: YES)
+info: Initialising connection to mysql database
+info: Building stolen_bikes database
+error: Could not build stolen_bikes database: ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: YES)
+error: Could not build stolen_bikes database: ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: YES)
+info: Initialising connection to mysql database
+info: Building stolen_bikes database
+error: Could not build stolen_bikes database: ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: YES)
+error: Could not build stolen_bikes database: ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: YES)
+error: Could not build stolen_bikes database: ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: YES)
+info: Initialising dependency injection container configuration
+info: Successfully completed dependency injection container configuration
+info: Successfully initialised app
+info: Initialising connection to mysql database
+info: Building stolen_bikes database
+error: Could not build stolen_bikes database: ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: YES)
+error: Could not build stolen_bikes database: ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: YES)
+error: Could not build stolen_bikes database: ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: YES)
+info: Initialising dependency injection container configuration
+info: Successfully completed dependency injection container configuration
+info: Successfully initialised app
+info: Initialising connection to mysql database
+info: Building stolen_bikes database
+error: Could not build stolen_bikes database: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+error: Could not build stolen_bikes database: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+error: Could not build stolen_bikes database: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+info: Initialising dependency injection container configuration
+info: Successfully completed dependency injection container configuration
+info: Successfully initialised app
+info: Initialising connection to mysql database
+info: Building stolen_bikes database
+error: Could not build stolen_bikes database: ER_BAD_DB_ERROR: Unknown database 'stolen_bikes'
+error: Could not build stolen_bikes database: ER_BAD_DB_ERROR: Unknown database 'stolen_bikes'
+error: Could not build stolen_bikes database: ER_BAD_DB_ERROR: Unknown database 'stolen_bikes'
+info: Initialising dependency injection container configuration
+info: Successfully completed dependency injection container configuration
+info: Successfully initialised app
+info: Initialising connection to mysql database
+info: Building stolen_bikes database
+error: Could not build stolen_bikes database: ER_BAD_DB_ERROR: Unknown database 'stolen_bikes'
+error: Could not build stolen_bikes database: ER_BAD_DB_ERROR: Unknown database 'stolen_bikes'
+error: Could not build stolen_bikes database: ER_BAD_DB_ERROR: Unknown database 'stolen_bikes'
+info: Initialising dependency injection container configuration
+info: Successfully completed dependency injection container configuration
+info: Successfully initialised app
+info: Initialising connection to mysql database
+info: Building stolen_bikes database
+info: Successfully connected to mysql db
+error: Could not build stolen_bikes database: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+error: Could not build stolen_bikes database: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+error: Could not build stolen_bikes database: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+info: Initialising dependency injection container configuration
+info: Successfully completed dependency injection container configuration
+info: Successfully initialised app
+info: Initialising connection to mysql database
+info: Building stolen_bikes database
+error: Could not build stolen_bikes database: ER_BAD_DB_ERROR: Unknown database 'stolen_bikes'
+error: Could not build stolen_bikes database: ER_BAD_DB_ERROR: Unknown database 'stolen_bikes'
+error: Could not build stolen_bikes database: ER_BAD_DB_ERROR: Unknown database 'stolen_bikes'
+info: Initialising dependency injection container configuration
+info: Successfully completed dependency injection container configuration
+info: Successfully initialised app
+info: Initialising connection to mysql database
+info: Building stolen_bikes database
+info: Successfully connected to mysql db
+error: Could not build stolen_bikes database: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+error: Could not build stolen_bikes database: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+error: Could not build stolen_bikes database: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+info: Initialising dependency injection container configuration
+info: Successfully completed dependency injection container configuration
+info: Successfully initialised app
+info: Initialising connection to mysql database
+info: Building stolen_bikes database
+info: Successfully connected to mysql db
+info: Successfully built stolen_bikes database
+info: Initialising dependency injection container configuration
+info: Successfully completed dependency injection container configuration
+info: Successfully initialised app
+info: C:\Personal\Assignments\stolen_bike service\migrations
+info: Initialising connection to mysql database
+info: Building stolen_bikes db
+info: Successfully connected to mysql db
+info: Successfully built stolen_bikes db
+info: Initialising dependency injection container configuration
+info: Successfully completed dependency injection container configuration
+info: Successfully initialised app
+info: C:\Personal\Assignments\stolen_bike service\migrations
+info: Initialising connection to mysql database
+info: Building stolen_bikes db
+info: Successfully connected to mysql db
+info: Successfully built stolen_bikes db
+info: Initialising dependency injection container configuration
+info: Successfully completed dependency injection container configuration
+info: Successfully initialised app
+info: Initialising connection to mysql database
+info: Building stolen_bikes db
+info: Successfully connected to mysql db
+info: Successfully built stolen_bikes db
+info: Initialising dependency injection container configuration
+info: Successfully completed dependency injection container configuration
+info: Successfully initialised app
+info: Initialising connection to mysql database
+error: Could not build stolen_bikes db: ENOENT: no such file or directory, scandir 'C:\Personal\Assignments\migrations'
+error: Could not build stolen_bikes db: ENOENT: no such file or directory, scandir 'C:\Personal\Assignments\migrations'
+info: Building stolen_bikes db
+error: Could not build stolen_bikes db: ENOENT: no such file or directory, scandir 'C:\Personal\Assignments\migrations'
+info: Initialising dependency injection container configuration
+info: Successfully completed dependency injection container configuration
+info: Successfully initialised app
+info: Successfully connected to mysql db
+info: Initialising connection to mysql database
+info: Building stolen_bikes db
+info: Successfully connected to mysql db
+info: Successfully built stolen_bikes db
+info: Initialising dependency injection container configuration
+info: Successfully completed dependency injection container configuration
+info: Successfully initialised app
+info: Initialising connection to mysql database
+info: Building stolen_bikes db
+info: Successfully connected to mysql db
+info: Successfully built stolen_bikes db
+info: Initialising dependency injection container configuration
+info: Successfully completed dependency injection container configuration
+info: Successfully initialised app
+info: C:\Personal\Assignments\stolen_bike service\db_migrations
+info: Initialising connection to mysql database
+info: Building stolen_bikes db
+info: Successfully connected to mysql db
+info: Successfully built stolen_bikes db
+info: Initialising dependency injection container configuration
+info: Successfully completed dependency injection container configuration
+info: Successfully initialised app
+info: Initialising connection to mysql database
+info: Building bikes db
+info: Successfully connected to mysql db
+error: Could not build bikes db: logger is not defined
+error: Could not build bikes db: logger is not defined
+error: Could not build bikes db: logger is not defined
+info: Initialising dependency injection container configuration
+info: Successfully completed dependency injection container configuration
+info: Successfully initialised app
+info: Initialising connection to mysql database
+info: Building bikes db
+info: Successfully connected to mysql db
+info: Successfully built bikes db
+info: Initialising dependency injection container configuration
+info: Successfully completed dependency injection container configuration
+info: Successfully initialised app
+info: Initialising connection to mysql database
+info: Building stolen_bikes db
+info: Successfully connected to mysql db
+info: Successfully built latest db objects
+info: Initialising dependency injection container configuration
+info: Successfully completed dependency injection container configuration
+info: Successfully initialised app
+info: Initialising connection to mysql database
+info: Building stolen_bikes db
+info: Successfully connected to mysql db
+info: Successfully built latest db objects
+info: Initialising dependency injection container configuration
+info: Successfully completed dependency injection container configuration
+info: Successfully initialised app
+info: Initialising connection to mysql database
+info: Building stolen_bikes db
+info: Successfully connected to mysql db
+info: Successfully built latest db objects
+info: Initialising dependency injection container configuration
+info: Successfully completed dependency injection container configuration
+info: Successfully initialised app
+info: Initialising connection to mysql database
+info: Building stolen_bikes db
+info: Successfully connected to mysql db
+info: Successfully built latest db objects
+info: Initialising dependency injection container configuration
+info: Successfully completed dependency injection container configuration
+info: Successfully initialised app
+info: Initialising connection to mysql database
+info: Building stolen_bikes db
+info: Successfully connected to mysql db
+info: Successfully built latest db objects
+info: Initialising dependency injection container configuration
+info: Successfully completed dependency injection container configuration
+info: Successfully initialised app
+info: Initialising connection to mysql database
+info: Building stolen_bikes db
+info: Successfully connected to mysql db
+error: Could not build stolen_bikes db: alter table `cases` add constraint `cases_bikeid_foreign` foreign key (`bikeid`) references `bikes` (`id`) on delete SET NULL - ER_KEY_COLUMN_DOES_NOT_EXITS: Key column 'bikeid' doesn't exist in table
+error: Could not build stolen_bikes db: alter table `cases` add constraint `cases_bikeid_foreign` foreign key (`bikeid`) references `bikes` (`id`) on delete SET NULL - ER_KEY_COLUMN_DOES_NOT_EXITS: Key column 'bikeid' doesn't exist in table
+error: Could not build stolen_bikes db: alter table `cases` add constraint `cases_bikeid_foreign` foreign key (`bikeid`) references `bikes` (`id`) on delete SET NULL - ER_KEY_COLUMN_DOES_NOT_EXITS: Key column 'bikeid' doesn't exist in table
+info: Initialising dependency injection container configuration
+info: Successfully completed dependency injection container configuration
+info: Successfully initialised app
+info: Initialising connection to mysql database
+info: Building stolen_bikes db
+info: Successfully connected to mysql db
+error: Could not build stolen_bikes db: create table `samples` (`id` int unsigned not null auto_increment primary key, `name` varchar(255), `created_at` timestamp not null default CURRENT_TIMESTAMP, `updated_at` timestamp not null default CURRENT_TIMESTAMP) - ER_TABLE_EXISTS_ERROR: Table 'samples' already exists
+error: Could not build stolen_bikes db: create table `samples` (`id` int unsigned not null auto_increment primary key, `name` varchar(255), `created_at` timestamp not null default CURRENT_TIMESTAMP, `updated_at` timestamp not null default CURRENT_TIMESTAMP) - ER_TABLE_EXISTS_ERROR: Table 'samples' already exists
+error: Could not build stolen_bikes db: create table `samples` (`id` int unsigned not null auto_increment primary key, `name` varchar(255), `created_at` timestamp not null default CURRENT_TIMESTAMP, `updated_at` timestamp not null default CURRENT_TIMESTAMP) - ER_TABLE_EXISTS_ERROR: Table 'samples' already exists
+info: Initialising dependency injection container configuration
+info: Successfully completed dependency injection container configuration
+info: Successfully initialised app

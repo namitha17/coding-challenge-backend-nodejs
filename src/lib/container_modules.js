@@ -1,3 +1,4 @@
+//Modify here to add/remove modules for the dependency injection container
 const CONTAINER_MODULES = [
   '../lib/../kernel/bikes/controller/bike_service.js',
   '../lib/../kernel/bikes/db_operations/bike_db.js',
