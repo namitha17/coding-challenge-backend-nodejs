@@ -20,7 +20,7 @@ async function startstolenBikeService(){
     app.use(bodyParser.json());
     app.use(bodyParser.urlencoded({extended: false}));
     app.use(awilixExpress.scopePerRequest(container));
-    // app.use('/', routes);
+    app.use('/', routes);
     const server = app.listen(8080);
     logger.info('Successfully initialised app');
 

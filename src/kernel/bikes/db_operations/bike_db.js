@@ -1,7 +1,5 @@
-class BikeDBOperations{
+class BikeDbOperations{
 
 }
 
-module.exports = {
-  BikeDBOperations
-};
+module.exports = BikeDbOperations;

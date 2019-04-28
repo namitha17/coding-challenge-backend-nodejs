@@ -2,6 +2,4 @@ class OfficerDBOperations{
 
 }
 
-module.exports = {
-  OfficerDBOperations
-};
+module.exports = OfficerDBOperations;

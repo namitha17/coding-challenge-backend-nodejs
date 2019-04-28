@@ -10,6 +10,7 @@ function configureDIcontainer(){
       CONTAINER_MODULES.join(','),
       { register: asClass }
     ]], {
+    format: 'camelCase',
     resolverOptions: {
       lifetime: Lifetime.SCOPED
     }
