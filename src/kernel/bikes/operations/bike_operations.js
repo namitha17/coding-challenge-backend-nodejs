@@ -11,12 +11,7 @@ class BikeOperations{
   }
 
   async handleBikeSearchWithProperties(req, res, next){
-    logger.info(`Incoming request for search with properties ${req.params}`);
     res.json(await this.bikeService.searchBikeWithProperties(req.query));
-  }
-
-  async handleBikeSearchWithId(req, res, next){
-    res.json(await this.bikeService.searchBikeById(req.query));
   }
 }
 

@@ -12,11 +12,6 @@ router.get('/bikes',
   makeClassInvoker(require('../kernel/bikes/operations/bike_operations'))('handleBikeSearchWithProperties')
 );
 
-//search bike by id
-router.get('/bikes/:id',
-  makeClassInvoker(require('../kernel/bikes/operations/bike_operations'))('handleBikeSearchWithId')
-);
-
 //mark case as resolved
 router.put('/cases/:id/resolved',
   makeClassInvoker(require('../kernel/cases/operations/case_operations'))('handleMarkCaseAsResolved')

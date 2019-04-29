@@ -3,14 +3,40 @@ class BikeDbOperations{
       this.knexConn = knexConn;
   }
 
-  insert(bikeInfo){
-    //search for bike with license number, if not found then insert
-    const thisBikeExists = this.knexConn('bikes').select('*').where('licenseno', bikeInfo.licenseno);
-    if(thisBikeExists.length === 0){
-      return this.knexConn('bikes').insert(bikeInfo);
-    }else{
-      throw new Error(`Stolen bike report for license number ${bikeInfo.licenseno} already exists`);
-    }
+  insertNewBike(bikeInfo){
+    return this.knexConn('bikes').insert(bikeInfo);
+  }
+
+  searchBike(bikeProperties){
+    return this.knexConn('bikes')
+          .select('bikes.*')
+          .select({
+            'officername': 'officers.officername',
+            'officerid': 'officers.id',
+            'officerstatus':  'officers.status',
+            'casesid': 'cases.id',
+            'casesstatus': 'cases.status'
+          })
+          .where(qb => {
+            Object.entries(bikeProperties).forEach(([key, value]) => {
+              if(key === "description"){
+                qb.where(`bikes.${key}`, 'like', `%${value}%`);
+              }else{
+                qb.where(`bikes.${key}`, '=', value);
+              }
+            });
+          })
+          .leftJoin('cases', 'cases.bikeid', 'bikes.id')
+          .leftJoin('officers', 'officers.id', 'cases.officerid')
+          .orderBy('bikes.id', 'asc');
+  }
+
+  searchBikeWithLicenseNo(licenseno){
+    return this.knexConn('bikes').select('id').where('licenseno', licenseno);
+  }
+
+  updateBikeStatus(bikeId, updateFields){
+    return this.knexCon('bikes').where('id', bikeId).update(updateFields);
   }
 }
 
