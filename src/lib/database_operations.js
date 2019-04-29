@@ -1,5 +1,6 @@
-const logger = require('./logger').logger;
+const logger = require('./logger');
 const path = require('path');
+const asValue = require('awilix').asValue;
 
 let knex;
 
@@ -58,7 +59,34 @@ function killDatabaseConnection(){
   }
 }
 
+async function resolveKnexConnection(req, res, next){
+    const scope = req.container;
+    const knexConn = await new Promise(resolve => {
+        knex.transaction(ts => {
+            resolve(ts);
+        });
+    });
+
+    scope.register({knexConn: asValue(knexConn)});
+    res._orig_json_handler = res.json;
+    res.json = commitRollbackHandler(res, knexConn);
+    next();
+};
+
+const commitRollbackHandler = (res, knexConn) => {
+    return async function() {
+        res.json = res._orig_json_handler;
+        if (res.__err__) {
+            await knexConn.rollback(res.__err__);
+        } else {
+            await knexConn.commit();
+        }
+        res.json.apply(this, arguments);
+    };
+};
+
 module.exports = {
   init,
-  buildDatabase
+  buildDatabase,
+  resolveKnexConnection
 };

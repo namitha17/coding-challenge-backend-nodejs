@@ -3,13 +3,13 @@ const dotenv = require('dotenv/config');
 const bodyParser = require('body-parser');
 const awilixExpress = require('awilix-express');
 const database_operations = require('./lib/database_operations');
-const logger = require('./lib/logger').logger;
+const logger = require('./lib/logger');
 const server_shutdown = require('./lib/server_shutdown');
 const container_config = require('./lib/container_config');
-const routes = require('./routes/api_routes.js');
+const routes = require('./routes/api_routes');
 let container;
 
-async function startstolenBikeService(){
+async function startStolenBikeService(){
   try{
     await database_operations.init() //innitialise db
     await database_operations.buildDatabase(); //create db objects
@@ -33,5 +33,5 @@ async function startstolenBikeService(){
 }
 
 module.exports = {
-  startstolenBikeService
+  startStolenBikeService
 };

@@ -1,5 +1,6 @@
 const router = require('express').Router();
 const makeClassInvoker = require('awilix-express').makeClassInvoker;
+router.use(require('../lib/database_operations').resolveKnexConnection);
 
 //Add new stolen bike
 router.post('/bikes',
@@ -13,7 +14,7 @@ router.get('/bikes',
 
 //search bike by id
 router.get('/bikes/:id',
-  makeClassInvoker(require(  '../kernel/bikes/operations/bike_operations'))('handleBikeSearchWithId')
+  makeClassInvoker(require('../kernel/bikes/operations/bike_operations'))('handleBikeSearchWithId')
 );
 
 //mark case as resolved

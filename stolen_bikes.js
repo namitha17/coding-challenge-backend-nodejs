@@ -1,1 +1,1 @@
-require('./src/app').startstolenBikeService(process);
+require('./src/app').startStolenBikeService(process);
