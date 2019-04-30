@@ -1,3 +1,5 @@
+const logger = require('../../../lib/logger');
+
 class CaseOperations{
     constructor({ caseService }) {
         this.caseService = caseService;

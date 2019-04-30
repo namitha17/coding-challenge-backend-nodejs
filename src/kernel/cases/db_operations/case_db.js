@@ -11,12 +11,12 @@ class CaseDBOperations{
     });
   }
 
-  updateCaseDetails(caseId, updateFields){
-    return this.knexCon('cases').where('id', caseId).update(updateFields);
+  updateCaseDetails(fieldName, fieldValue, updateFields){
+    return this.knexConn('cases').where(fieldName, fieldValue).update(updateFields);
   }
 
-  searchCaseById(caseId){
-    return this.knexConn('cases').select('*').where('id', caseId);
+  searchCaseByFieldName(fieldName, fieldValue){
+    return this.knexConn('cases').select('*').where(fieldName, fieldValue);
   }
 }
 

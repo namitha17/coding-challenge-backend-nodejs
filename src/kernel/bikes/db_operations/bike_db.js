@@ -36,7 +36,7 @@ class BikeDbOperations{
   }
 
   updateBikeStatus(bikeId, updateFields){
-    return this.knexCon('bikes').where('id', bikeId).update(updateFields);
+    return this.knexConn('bikes').where('id', bikeId).update(updateFields);
   }
 }
 
